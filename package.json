@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mattsells/doppel-tweet/issues"
   },
-  "homepage": "https://github.com/mattsells/doppel-tweet#readme"
+  "homepage": "https://github.com/mattsells/doppel-tweet#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
 }

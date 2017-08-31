@@ -1,0 +1,12 @@
+1. Require dopple-tweet as var
+2. d1 = new DoppleTweet(config)
+
+*config file*
+	-Doppel name
+	-Source accounts (for dictionary), array
+	-Credentials for account to post (if using)
+	-Location to save dictionary (if going to text)
+
+3. load - gets Tweets from sources and loads into dictionary
+4. generate - create a Tweet w/ params
+5. 
