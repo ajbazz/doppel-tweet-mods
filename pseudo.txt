@@ -7,6 +7,5 @@
 	-Credentials for account to post (if using)
 	-Location to save dictionary (if going to text)
 
-3. load - gets Tweets from sources and loads into dictionary
-4. generate - create a Tweet w/ params
-5. 
+3. populate - gets Tweets from sources and loads into dictionary
+5. generate - create a Tweet w/ params
