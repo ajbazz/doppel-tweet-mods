@@ -1,0 +1,19 @@
+{
+  "name": "doppel-tweet",
+  "version": "1.0.0",
+  "description": "Mimic a Twitter user with Markov chains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsells/doppel-tweet.git"
+  },
+  "author": "Matthew Sells <mattms@tuta.io> (http://www.fullstackmatt.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattsells/doppel-tweet/issues"
+  },
+  "homepage": "https://github.com/mattsells/doppel-tweet#readme"
+}
