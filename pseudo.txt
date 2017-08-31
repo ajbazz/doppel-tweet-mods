@@ -7,5 +7,23 @@
 	-Credentials for account to post (if using)
 	-Location to save dictionary (if going to text)
 
-3. populate - gets Tweets from sources and loads into dictionary
-5. generate - create a Tweet w/ params
+
+
+The user requires the module as a variable. Then creates a new instance of a Doppel with some configuration specs
+Those specs will be stored in the instance of Dopple.
+
+Methods in the Dopple are
+
+*Lex methods*
+-populateLex - Initial loading of lexicon from sources provided in config
+-updateLex - Gets new Tweets from sources and adds to lexicon
+-exportLex - Exports lexicon as a JSON
+-importLex - Adds lexicon data from JSON
+
+*Lifecycle Methods*
+-scrubInput - Runs on each Tweet recieved before adding to lexicon. Must return a string
+-polishTweet - Runs on each created Tweet. Must return a string.
+
+*Tweet methods*
+-generateTweet - Uses lex and markov to return a string
+-generateTweet.publish - Publishes to saved data
