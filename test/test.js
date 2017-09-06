@@ -9,4 +9,4 @@ var config = {
 
 var d1 = new Doppel(config);
 
-d1.initialize();
+d1.sayName();
