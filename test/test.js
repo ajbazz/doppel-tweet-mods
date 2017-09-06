@@ -10,3 +10,4 @@ var config = {
 var d1 = new Doppel(config);
 
 d1.sayName();
+d1.getTweets();
