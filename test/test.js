@@ -15,4 +15,4 @@ var config = {
 var d1 = new Doppel(config);
 
 // Testing
-d1.getTweets();
+d1.updateLex();
