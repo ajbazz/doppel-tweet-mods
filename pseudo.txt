@@ -21,8 +21,8 @@ Methods in the Dopple are
 -importLex - Adds lexicon data from JSON
 
 *Lifecycle Methods*
--scrubInput - Runs on each Tweet recieved before adding to lexicon. Must return a string
--polishTweet - Runs on each created Tweet. Must return a string.
+-scrub - Runs on each Tweet recieved before adding to lexicon. Must return a string
+-polish - Runs on each created Tweet. Must return a string.
 
 *Tweet methods*
 -generateTweet - Uses lex and markov to return a string
