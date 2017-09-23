@@ -15,4 +15,4 @@ var config = {
 var d1 = new Doppel(config);
 
 // Testing
-d1.initialize();
+d1.updateLex();
