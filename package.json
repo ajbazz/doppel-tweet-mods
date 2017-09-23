@@ -1,6 +1,6 @@
 {
   "name": "doppel-tweet",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Mimic a Twitter user with Markov chains",
   "main": "index.js",
   "scripts": {
