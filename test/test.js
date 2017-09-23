@@ -7,7 +7,7 @@ var twitterConfig = require('./config.js');
 // Set up configuration of Doppel
 var config = {
 	name: 'Ganglebot',
-	source: ['Ganglegasm'],
+	source: 'Ganglegasm',
 	keys: twitterConfig
 };
 
