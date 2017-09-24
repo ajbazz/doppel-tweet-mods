@@ -56,17 +56,17 @@ function(user, after Id, before Id, tweets Array)
 structure of lex
 {
 	'Word word': {
-		freq: 4,
-		branch: {
-			word: 5
-			oata: 2
-			
+		suffix: []
+		freq: []
+
 		}
 
 
 }
 
 alias for blanks = **
+
+initialize
 
 
 

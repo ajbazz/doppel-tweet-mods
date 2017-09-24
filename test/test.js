@@ -4,15 +4,12 @@ var Doppel = require('../index.js');
 // Config for connecting to Twitter (usually use env variable)
 var twitterConfig = require('./config.js');
 
-// Set up configuration of Doppel
-var config = {
-	name: 'Ganglebot',
-	source: 'realDonaldTrump',
-	keys: twitterConfig
-};
-
 // Create new Doppel with configuration
-var d1 = new Doppel(config);
+var d1 = new Doppel('timnocontext', twitterConfig);
 
 // Testing
-d1.updateLex();
+// d1.updateLex().then(function(data){
+// 	console.log(data);
+// });
+
+d1.update();
