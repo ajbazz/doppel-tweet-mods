@@ -53,6 +53,20 @@ function(user, after Id, before Id, tweets Array)
 		-> this time run with beforeId equal to last one
 
 
+structure of lex
+{
+	'Word word': {
+		freq: 4,
+		branch: {
+			word: 5
+			oata: 2
+			
+		}
+
+
+}
+
+alias for blanks = **
 
 
 
