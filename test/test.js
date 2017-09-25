@@ -12,4 +12,7 @@ var d1 = new Doppel('timnocontext', twitterConfig);
 // 	console.log(data);
 // });
 
-d1.update();
+d1.update(function(){
+	var phrase = d1.generate();
+	console.log(phrase);
+});
