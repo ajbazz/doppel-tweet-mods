@@ -10,5 +10,5 @@ var d1 = new Doppel('timnocontext', twitterConfig, scrub);
 
 d1.update(function(){
 	var phrase = d1.generate();
-	d1.tweet();
+	// d1.tweet();
 });
