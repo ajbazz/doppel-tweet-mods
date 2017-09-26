@@ -1,5 +1,8 @@
 # Doppel Tweet
 Doppel Tweet is a simple, lightweight JavaScript class for Node.js that uses [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) to generate Tweets from a vocaulary base copied from another Twitter account.
+
+See the [Timtelligence Twitter profile](https://twitter.com/timtelligence) to see what this looks like! Nonsensical, but practically Skynet.
+
 ## Getting started
 ### Installation
 Install Doppel Tweet with `npm i --s doppel-tweet`
