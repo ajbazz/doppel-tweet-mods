@@ -41,9 +41,9 @@ donnie.update(function(){
 });
 ```
 When run with the previously used Twitter handle (_realdonaldtrump_) the following was logged to the console, and also posted to Twitter:
-```
-We will confront ANY challenge, no matter how strong the winds or high the water. I’m proud to stand with Presidents for #OneAmericaAppeal.
-```
+
+**"We will confront ANY challenge, no matter how strong the winds or high the water. I’m proud to stand with Presidents for #OneAmericaAppeal."**
+
 And that's it! You can now mimic a Twitter user with the cunning of a Replicant. Enjoy!
 ## Tweet Generation
 While the `tweet()` method can be used as-is to generate and then post a Tweet in one go, you might want to have some more control over what's happening. In this case, you can assign a Tweet to a variable with `generate()`.
