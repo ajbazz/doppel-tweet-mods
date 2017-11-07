@@ -4,4 +4,4 @@
 */
 
 'use strict';
-module.exports = require('./lib/doppel');
+module.exports = require('./lib/Doppel');
