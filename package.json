@@ -1,5 +1,5 @@
 {
-  "name": "doppel-tweet",
+  "name": "doppel-tweet-mods",
   "version": "1.1.0",
   "description": "Mimic a Twitter user with Markov chains",
   "main": "index.js",
